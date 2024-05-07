@@ -1,0 +1,80 @@
+.todo-list {
+  max-width: 400px;
+  margin: auto;
+  margin-top: 200px;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0 0 10px 1px rgba(0, 0, 0, 0.25);
+  backdrop-filter: blur(15px);
+}
+.todo-list h1{
+  text-align: center;
+  font-size: 50px;
+  font-family: monospace;
+  color: rgb(60, 94, 156);
+}
+
+.add-todo {
+  margin-bottom: 30px;
+}
+
+.add-todo input[type="text"] {
+  padding: 10px;
+  width: 70%;
+  border: 1px solid #171928;
+  border-radius: 3px;
+
+}
+
+.add-todo button {
+  padding: 10px 12px;
+  margin-left: 10px;
+  background-color: #478ed5;
+  color: rgb(236, 239, 244);
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+  font-weight: 700;
+}
+
+ul {
+  list-style: none;
+
+}
+ul span{
+  font-family:monospace;
+  font-weight: 600;
+  font-size: x-large;
+}
+
+li {
+  margin-bottom: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+li button {
+  padding: 5px 10px;
+  background-color: rgb(187, 187, 187);
+  color: rgb(48, 81, 142);
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+  margin: 5px;
+  
+}
+
+.remove-all button {
+  width: 100%;
+  padding: 8px 12px;
+  background-color: rgb(187, 187, 187);
+  color: rgb(36, 62, 111);
+  font-size: larger;
+  font-weight: 500;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+
+
+}
